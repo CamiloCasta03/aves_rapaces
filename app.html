@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aves Rapaces Colombia</title>
+  <meta name="description"
+    content="Mapa interactivo de la distribución de aves rapaces en Colombia. Descubre su hábitat, alimentación y características." />
+</head>
+
+<body>
+  <div id="app" class="relative w-full h-screen overflow-hidden bg-bg-light">
+    <!-- Header Overlay -->
+    <header class="absolute top-0 left-0 z-[1000] p-6 pointer-events-none">
+      <div class="glass-panel px-6 py-4 rounded-full flex items-center gap-4 pointer-events-auto">
+        <img src="/assets/logo.png" alt="Logo" class="w-8 h-8 object-contain">
+        <h1 class="text-xl font-bold text-primary-700 tracking-tight">Aves Rapaces</h1>
+      </div>
+    </header>
+
+    <!-- Map Container -->
+    <div id="map" class="w-full h-full z-0 outline-none"></div>
+
+    <!-- Bird Detail Sidebar (Hidden by default) -->
+    <aside id="bird-sidebar"
+      class="absolute top-0 right-0 z-[1000] h-full w-full md:w-[400px] transform translate-x-full transition-transform duration-500 ease-in-out pointer-events-none">
+      <div
+        class="glass-panel h-full m-4 rounded-3xl overflow-hidden flex flex-col pointer-events-auto shadow-2xl relative">
+
+        <!-- Close Button -->
+        <button id="close-sidebar"
+          class="absolute top-4 right-4 z-10 p-2 bg-white/50 hover:bg-white rounded-full transition text-primary-700">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+
+        <!-- Bird Image -->
+        <div class="h-1/3 relative">
+          <img id="sidebar-image" src="" alt="Bird Image" class="w-full h-full object-cover">
+          <div class="absolute bottom-0 w-full bg-gradient-to-t from-white via-white/80 to-transparent p-4">
+            <span id="sidebar-family"
+              class="text-xs font-bold text-primary-500 tracking-wider uppercase bg-primary-100 px-2 py-1 rounded-md">Familia</span>
+          </div>
+        </div>
+
+        <!-- Content -->
+        <div class="flex-1 p-6 overflow-y-auto">
+          <h2 id="sidebar-title" class="text-3xl font-bold text-primary-700 mb-2 leading-tight">Nombre del Ave</h2>
+          <h3 id="sidebar-scientific" class="text-lg text-text-muted italic mb-6">Scientific Name</h3>
+
+          <div class="space-y-6">
+            <div>
+              <h4 class="text-sm font-bold text-primary-500 uppercase tracking-wider mb-1">Descripción</h4>
+              <p id="sidebar-description" class="text-text-main leading-relaxed">Description text goes here.</p>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4">
+              <div class="glass-panel p-4 rounded-xl bg-white/40">
+                <h4 class="text-xs font-bold text-primary-500 uppercase tracking-wider mb-1">Ubicación</h4>
+                <p id="sidebar-location" class="font-medium text-text-main">Departamento</p>
+              </div>
+              <div class="glass-panel p-4 rounded-xl bg-white/40">
+                <h4 class="text-xs font-bold text-primary-500 uppercase tracking-wider mb-1">Alimentación</h4>
+                <p id="sidebar-food" class="font-medium text-text-main">Food info</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Footer CTA (Optional) -->
+        <div class="p-6 pt-0">
+          <button
+            class="w-full py-3 bg-primary-500 hover:bg-primary-700 text-white font-bold rounded-xl transition shadow-lg shadow-primary-500/30">
+            Aprender Más
+          </button>
+        </div>
+      </div>
+    </aside>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

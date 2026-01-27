@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "common_name": "Águila Real de Montaña",
+        "scientific_name": "Spizaetus isidori",
+        "family": "Accipitridae",
+        "description": "Una de las rapaces más grandes y amenazadas de los Andes. Su plumaje es castaño rojizo con negro.",
+        "food": "Mamíferos medianos (ardillas, coatíes)",
+        "location": {
+            "department": "Huila",
+            "lat": 2.5359,
+            "lng": -75.5277
+        },
+        "image": "/assets/birds/spizaetus_isidori.png"
+    },
+    {
+        "id": 2,
+        "common_name": "Cóndor de los Andes",
+        "scientific_name": "Vultur gryphus",
+        "family": "Cathartidae",
+        "description": "El ave voladora más grande del mundo. Símbolo nacional de Colombia.",
+        "food": "Carroña (animales muertos)",
+        "location": {
+            "department": "Cundinamarca",
+            "lat": 4.6547,
+            "lng": -73.8167
+        },
+        "image": "/assets/birds/vultur_gryphus.png"
+    },
+    {
+        "id": 3,
+        "common_name": "Gavilán Polloo",
+        "scientific_name": "Rupornis magnirostris",
+        "family": "Accipitridae",
+        "description": "Rapaz muy común en bordes de bosque y zonas abiertas. Vocaliza frecuentemente.",
+        "food": "Insectos, pequeños roedores, lagartijas",
+        "location": {
+            "department": "Antioquia",
+            "lat": 6.2442,
+            "lng": -75.5812
+        },
+        "image": "/assets/birds/rupornis_magnirostris.png"
+    },
+    {
+        "id": 4,
+        "common_name": "Halcón Peregrino",
+        "scientific_name": "Falco peregrinus",
+        "family": "Falconidae",
+        "description": "El animal más rápido del mundo en picada. Visitante migratorio en Colombia.",
+        "food": "Aves medianas (palomas, patos)",
+        "location": {
+            "department": "Valle del Cauca",
+            "lat": 3.4516,
+            "lng": -76.5320
+        },
+        "image": "/assets/birds/falco_peregrinus.png"
+    },
+    {
+        "id": 5,
+        "common_name": "Rey de los Gallinazos",
+        "scientific_name": "Sarcoramphus papa",
+        "family": "Cathartidae",
+        "description": "Inconfundible por su cabeza multicolor. Domina sobre otros buitres en la carroña.",
+        "food": "Carroña",
+        "location": {
+            "department": "Amazonas",
+            "lat": -1.4429,
+            "lng": -71.5724
+        },
+        "image": "/assets/birds/sarcoramphus_papa.png"
+    },
+    {
+        "id": 6,
+        "common_name": "Águila Harpía",
+        "scientific_name": "Harpia harpyja",
+        "family": "Accipitridae",
+        "description": "La rapaz más poderosa del hemisferio occidental. Habita selvas vírgenes.",
+        "food": "Perezosos, monos",
+        "location": {
+            "department": "Caquetá",
+            "lat": 1.6144,
+            "lng": -75.6062
+        },
+        "image": "/assets/birds/harpia_harpyja.png"
+    },
+    {
+        "id": 7,
+        "common_name": "Gavilán Tijereta",
+        "scientific_name": "Elanoides forficatus",
+        "family": "Accipitridae",
+        "description": "Inconfundible por su cola ahorquillada y vuelo elegante. Migratorio y residente.",
+        "food": "Insectos en vuelo, lagartijas",
+        "location": {
+            "department": "Chocó",
+            "lat": 5.2345,
+            "lng": -76.8242
+        },
+        "image": "/assets/birds/elanoides_forficatus.png"
+    },
+    {
+        "id": 8,
+        "common_name": "Caracara Crestado",
+        "scientific_name": "Caracara cheriway",
+        "family": "Falconidae",
+        "description": "Común en sabanas y llanuras. Oportunista y camina mucho por el suelo.",
+        "food": "Carroña, reptiles, anfibios",
+        "location": {
+            "department": "Casanare",
+            "lat": 5.3378,
+            "lng": -71.5724
+        },
+        "image": "/assets/birds/caracara_cheriway.png"
+    },
+    {
+        "id": 9,
+        "common_name": "Halcón Reidor",
+        "scientific_name": "Herpetotheres cachinnans",
+        "family": "Falconidae",
+        "description": "Especialista en comer serpientes. Su canto parece una risa fuerte.",
+        "food": "Serpientes, lagartos",
+        "location": {
+            "department": "Meta",
+            "lat": 3.2720,
+            "lng": -73.0877
+        },
+        "image": "/assets/birds/herpetotheres_cachinnans.png"
+    },
+    {
+        "id": 10,
+        "common_name": "Elanio Perla",
+        "scientific_name": "Gampsonyx swainsonii",
+        "family": "Accipitridae",
+        "description": "La rapaz más pequeña de Colombia. Parece un halcón pequeño pero es familia de los milanos.",
+        "food": "Lagartijas, insectos grandes",
+        "location": {
+            "department": "Tolima",
+            "lat": 4.0925,
+            "lng": -75.1545
+        },
+        "image": "/assets/birds/gampsonyx_swainsonii.png"
+    },
+    {
+        "id": 11,
+        "common_name": "Águila Mora",
+        "scientific_name": "Geranoaetus melanoleucus",
+        "family": "Accipitridae",
+        "description": "Grande y de pecho blanco. Se le ve planeando en zonas altas y páramos.",
+        "food": "Mamíferos medianos (conejos)",
+        "location": {
+            "department": "Boyacá",
+            "lat": 5.7686,
+            "lng": -73.1235
+        },
+        "image": "/assets/birds/geranoaetus_melanoleucus.png"
+    },
+    {
+        "id": 12,
+        "common_name": "Águila Pescadora",
+        "scientific_name": "Pandion haliaetus",
+        "family": "Pandionidae",
+        "description": "Experta pescadora. Migratoria del norte, se ve en costas y ríos grandes.",
+        "food": "Pescado exclusivamente",
+        "location": {
+            "department": "Magdalena",
+            "lat": 10.3910,
+            "lng": -74.4578
+        },
+        "image": "/assets/birds/pandion_haliaetus.png"
+    },
+    {
+        "id": 13,
+        "common_name": "Gavilán Aliancho",
+        "scientific_name": "Buteo platypterus",
+        "family": "Accipitridae",
+        "description": "Migratorio boreal. Llega en grandes bandadas conocidas como 'migración de gavilanes'.",
+        "food": "Insectos, ranas, pequeños roedores",
+        "location": {
+            "department": "Quindío",
+            "lat": 4.5330,
+            "lng": -75.6953
+        },
+        "image": "/assets/birds/buteo_platypterus.png"
+    },
+    {
+        "id": 14,
+        "common_name": "Pigua",
+        "scientific_name": "Milvago chimachima",
+        "family": "Falconidae",
+        "description": "Muy común en ganaderia. Se posa sobre el ganado para comer garrapatas.",
+        "food": "Garrapatas, insectos, carroña",
+        "location": {
+            "department": "Santander",
+            "lat": 6.6436,
+            "lng": -73.2323
+        },
+        "image": "/assets/birds/milvago_chimachima.png"
+    },
+    {
+        "id": 15,
+        "common_name": "Busardo Colinegro",
+        "scientific_name": "Busarellus nigricollis",
+        "family": "Accipitridae",
+        "description": "Asociado a humedales. Tiene un collar negro distintivo.",
+        "food": "Peces, caracoles",
+        "location": {
+            "department": "Arauca",
+            "lat": 7.0847,
+            "lng": -70.7591
+        },
+        "image": "/assets/birds/busarellus_nigricollis.png"
+    }
+]

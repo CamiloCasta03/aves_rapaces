@@ -1,0 +1,19 @@
+# Cursor Rules for Raptor Bird Map
+
+## Project Context
+- **Name**: Mapa de Aves Rapaces (Colombia)
+- **Stack**: Vite (Vanilla JS), Leaflet.js, TailwindCSS.
+- **Design**: Light Mode, Minimalist, Purple Theme, Glassmorphism.
+
+## Coding Standards
+- **JavaScript**: Modern ES6+ syntax. Use strict mode.
+- **CSS**: Use TailwindCSS utility classes primarily. define custom complex styles in `style.css` using `@apply` or standard CSS if utilities become too verbose.
+- **Map Logic**: Keep Leaflet configuration modular. separate data fetching from map rendering.
+- **Formatting**: 2 spaces indentation. Semicolons.
+
+## Specific Directives
+- **Files**:
+  - `main.js`: Core logic.
+  - `data/birds.json`: Data source.
+- **Tailwind**: Use the configured purple palette (`primary-*`).
+- **Assets**: Images go in `public/assets`.

@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  /* Color Palette - Purple/Light Mode */
+  --color-primary-500: #8B5CF6; /* Base Purple */
+  --color-primary-700: #6D28D9; /* Deep Purple */
+  --color-primary-100: #EDE9FE; /* Soft Purple Background */
+  
+  --color-accent-gold: #F59E0B; /* Gold/Yellow details */
+  --color-accent-green: #10B981; /* Nature Green */
+  
+  --color-bg-light: #F9FAFB;   /* Off-white background */
+  --color-surface: #FFFFFF;    /* White cards */
+  --color-text-main: #1F2937;  /* Dark Grey Text */
+  --color-text-muted: #6B7280; /* Muted Text */
+  
+  /* Fonts */
+  --font-inter: Inter, sans-serif;
+}
+
+@layer utilities {
+  .glass-panel {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+}
+
+body {
+  background-color: var(--color-bg-light);
+  color: var(--color-text-main);
+  font-family: var(--font-inter);
+}
