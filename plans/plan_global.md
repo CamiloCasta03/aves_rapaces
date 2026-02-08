@@ -45,11 +45,26 @@ Key features:
     ![Minimalist Purple Raptor Logo](C:/Users/sacos/.gemini/antigravity/brain/bb837a6d-abb4-49c0-bd6a-f35a65568feb/raptor_logo_minimalist_purple_1769550811875.png)
   - Clean typography (Inter or modern sans-serif).
 
+### User Reporting Feature (New)
+- **Interactive Reporting**: Users can click directly on the map to set location for a sighting.
+- **Form Enhancements**: 
+  - **Species Selection**: Autocomplete/Select for known species.
+  - **Photo Upload**: Ability to upload local files (stored via Base64/LocalStorage).
+
 ## Verification Plan
 ### Automated Tests
-- None planned for this MVP (Visual verification primarily).
+- None planned for this MVP.
 
-### Manual Verification
-- **Map Interaction**: Click markers to ensure correct bird data loads.
-- **Responsive Design**: Verify layout on mobile vs desktop.
-- **Data Accuracy**: Check if information matches the JSON source.
+### Manual Verification (Critical)
+- **Button Functionality Check**: Verify all interactive elements:
+  - [ ] Sidebar Close Button.
+  - [ ] "Add Species" FAB.
+  - [ ] Modal Close Button.
+  - [ ] Form Submit Button.
+  - [ ] "Use Map Center" Button.
+  - [ ] Landing Page "Explore" Button.
+- **Map Interaction**: 
+  - [ ] Click markers to open sidebar.
+  - [ ] Click map (in reporting mode) to set coordinates.
+- **Data Persistence**: Verify custom birds survive page reload.
+- **Responsiveness**: Check mobile vs desktop layout.
